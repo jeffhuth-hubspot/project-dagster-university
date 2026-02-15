@@ -131,6 +131,7 @@ celerybeat.pid
 
 # Environments
 .env
+.env.leave
 .venv
 env/
 venv/
@@ -180,3 +181,5 @@ data/outputs/*
 data/raw/*
 data/requests/*.json
 data/staging/*
+.tool-versions
+asdf-virtualenv-commands.sh
